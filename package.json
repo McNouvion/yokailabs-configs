@@ -1,0 +1,36 @@
+{
+  "name": "yokailabs-configs",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Shared configuration packages for Yokai Labs (Prettier, ESLint, tsconfig, etc.), managed via npm workspaces.",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@changesets/cli": "^2.27.1",
+    "prettier": "^3.3.0"
+  },
+  "scripts": {
+    "build": "tsc -b packages/*",
+    "changeset": "changeset",
+    "release": "changeset version && changeset publish",
+    "fmt": "prettier . --write",
+    "fmt:check": "prettier . --check",
+    "ws:list": "npm query .workspace",
+    "ws:versions": "npm ls -ws --depth=0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yokailabs/yokailabs-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yokailabs/yokailabs-configs/issues"
+  },
+  "homepage": "https://github.com/yokailabs/yokailabs-configs#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@10"
+}

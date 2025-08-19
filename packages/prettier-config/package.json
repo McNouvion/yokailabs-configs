@@ -1,0 +1,35 @@
+{
+  "name": "@yokailabs/prettier-config",
+  "version": "0.0.1",
+  "description": "Shared Prettier configuration for Yokai Labs projects to ensure consistent code style across applications.",
+  "main": "index.cjs",
+  "keywords": [
+    "prettier",
+    "config",
+    "yokailabs"
+  ],
+  "author": "YokaiLabs, LLP.",
+  "license": "MIT",
+  "type": "commonjs",
+  "exports": "./index.cjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.cjs",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yokailabs/yokailabs-configs.git",
+    "directory": "packages/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/yokailabs/yokailabs-configs/issues"
+  },
+  "homepage": "https://github.com/yokailabs/yokailabs-configs#readme"
+}
