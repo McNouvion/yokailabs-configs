@@ -25,11 +25,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yokailabs/yokailabs-configs.git",
+    "url": "https://github.com/McNouvion/yokailabs-configs.git",
     "directory": "packages/prettier-config"
   },
   "bugs": {
-    "url": "https://github.com/yokailabs/yokailabs-configs/issues"
+    "url": "https://github.com/McNouvion/yokailabs-configs/issues"
   },
-  "homepage": "https://github.com/yokailabs/yokailabs-configs#readme"
+  "homepage": "https://github.com/McNouvion/yokailabs-configs#readme"
 }
