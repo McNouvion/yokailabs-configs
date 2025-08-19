@@ -1,5 +1,9 @@
 # @yokailabs/prettier-config
 
+[![npm version](https://img.shields.io/npm/v/@yokailabs/prettier-config.svg?style=flat-square)](https://www.npmjs.com/package/@yokailabs/prettier-config)
+[![npm downloads](https://img.shields.io/npm/dm/@yokailabs/prettier-config.svg?style=flat-square)](https://www.npmjs.com/package/@yokailabs/prettier-config)
+[![license](https://img.shields.io/npm/l/@yokailabs/prettier-config.svg?style=flat-square)](../../LICENSE)
+
 Shared [Prettier](https://prettier.io/) configuration for Yokai Labs projects.
 
 ## Purpose
